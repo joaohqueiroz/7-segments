@@ -37,6 +37,7 @@ header>h3 {
 
 .message {
     margin-bottom: 35px;
+    height: 19px;
 
     font-family: Montserrat;
     font-weight: 700;
@@ -75,6 +76,11 @@ header>h3 {
     padding-left: 12px;
 }
 
+.input>input:disabled {
+    background: #F5F5F5;
+    cursor: not-allowed;
+}
+
 .input>button {
     width: 70px;
     height: 42px;
@@ -89,6 +95,11 @@ header>h3 {
 
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.input>button:disabled {
+    background: #DDD;
+    cursor: not-allowed;
 }
 
 #digit-2 {
