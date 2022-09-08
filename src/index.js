@@ -22,6 +22,7 @@ const num = document.getElementById("number");
 
 const digitsArr = [digit1, digit2, digit3];
 const numberToGuess = await Number.getNumber();
+const refresh = document.getElementById("new-game");
 
 if (numberToGuess.value) {
   btn.addEventListener("click", (e) => {
@@ -55,16 +56,26 @@ if (numberToGuess.value) {
             statusMessage.style.color = "#32BF00";
             num.disabled = true;
             btn.disabled = true;
+            refresh.style.display = "flex";
+            digit1.parentElement.style.marginBottom = "56px";
           }
         });
       });
 
+      refresh.addEventListener('click', () => {
+        window.location.reload()
+      })
+      
       num.value = "";
     }
   });
 } else {
   statusMessage.innerText = "ERRO";
   statusMessage.style.color = "#CC3300";
+  num.disabled = true;
+  btn.disabled = true;
+  refresh.style.display = "flex";
+  digit1.parentElement.style.marginBottom = "56px";
 
   `${numberToGuess.StatusCode}`.split("").forEach((digit, idx) => {
     digitsArr[idx].style.display = "block";
