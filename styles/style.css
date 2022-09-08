@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    padding: 62px 58px 31px;
+    padding: 3.875rem 3.625rem 1.9375rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,15 +11,15 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 49px;
+    gap: .75rem;
+    margin-bottom: 3.0625rem;
 }
 
 header>h3 {
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
     text-align: center;
 
     background: linear-gradient(174.92deg, #EF6C00 18.47%, #DB6300 36.57%);
@@ -28,7 +28,7 @@ header>h3 {
 }
 
 .dash {
-    width: 255px;
+    width: 15.9375rem;
     height: 1px;
 
     background: #CFCFCF;
@@ -36,8 +36,8 @@ header>h3 {
 }
 
 .message {
-    margin-bottom: 35px;
-    height: 19px;
+    margin-bottom: 2.1875rem;
+    height: 1.1875rem;
 
     font-family: Montserrat;
     font-weight: 700;
@@ -51,21 +51,21 @@ header>h3 {
 
 .display {
     display: flex;
-    gap: 9px;
-    margin-bottom: 171px;
+    gap: .5625rem;
+    margin-bottom: 10.6875rem;
 }
 
 .new-game {
     display: flex;
     align-items: center;
 
-    margin-bottom: 73px;
+    margin-bottom: 4.5625rem;
     background: linear-gradient(180deg, #434854 0%, #9E9E9E 100%);
     border-radius: 4px;
     border: none;
-    width: 130px;
-    height: 42px;
-    padding-left: 6px;
+    width: 8.125rem;
+    height: 2.625rem;
+    padding-left: .375rem;
 
     font-family: Roboto;
     font-weight: 700;
@@ -80,12 +80,12 @@ header>h3 {
 .input {
     display: flex;
     align-items: center;
-    gap: 11px;
+    gap: .6875rem;
 }
 
 .input>input {
-    width: 217px;
-    height: 40px;
+    width: 13.5625rem;
+    height: 2.5rem;
 
     background: #FFFFFF;
     border: 1px solid #CFCFCF;
@@ -95,7 +95,7 @@ header>h3 {
     font-size: 12px;
     line-height: 14px;
 
-    padding-left: 12px;
+    padding-left: .75rem;
 }
 
 .input>input:disabled {
@@ -104,8 +104,8 @@ header>h3 {
 }
 
 .input>button {
-    width: 70px;
-    height: 42px;
+    width: 4.375rem;
+    height: 2.625rem;
     background: linear-gradient(180deg, #EF6C00 0%, #C0661C 100%);
     border-radius: 4px;
     border: none;
